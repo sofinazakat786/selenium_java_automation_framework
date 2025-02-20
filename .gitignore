@@ -1,3 +1,57 @@
+# Ignore Eclipse-specific files
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA-specific files
+.idea/
+*.iml
+
+# Ignore Maven/Gradle build files
 /target/
-/reports/
+*.log
+
+# Ignore test output and report files
 /test-output/
+/reports/
+/logs/
+*.html
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore compiled class files
+*.class
+
+# Ignore temporary and cache files
+*.tmp
+*.bak
+*.swp
+
+# Ignore Selenium-specific files (if any)
+.screenshot/
+
+# Ignore properties or environment files (optional if sensitive)
+*.env
+*.properties
+
+# Ignore Java IDE-generated files
+bin/
+
+# Ignore test coverage reports
+/coverage/
+*.lcov
+*.coverage
+
+# Ignore generated documentation
+/javadoc/
+
+# Ignore package files and archives
+*.jar
+*.war
+*.zip
+
+# Ignore generated config files (if any)
+*.config
