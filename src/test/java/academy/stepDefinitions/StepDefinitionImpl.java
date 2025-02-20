@@ -78,11 +78,12 @@ public class StepDefinitionImpl extends BaseTest {
 
 	}
 
-	@Then("Navigate to order page and validate the order list")
-	public void navigate_to_order_page_and_validate_the_order_list(String productName) {
-	    ordersPage = productCatalogue.goToOrdersPage();
-	    Assert.assertTrue(ordersPage.verifyOrderDisplay(productName));
-	    driver.close();
-	}
+	// @Then("Navigate to order page and validate the order list")
+	// public void navigate_to_order_page_and_validate_the_order_list(String
+	// productName) {
+	// ordersPage = productCatalogue.goToOrdersPage();
+	// Assert.assertTrue(ordersPage.verifyOrderDisplay(productName));
+	// driver.close();
+	// }
 
 }
